@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>To Do List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      <header id="banner">
+        <h1>To Do List</h1>
+        <p>We give endless possibilities of creating independent semantics markup</p>
+      </header>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+      <section>
+        <div class="todo-container">
+          <div class="todo-header">
+            <input type="text" class="input-item" placeholder="Type to add/search item">
+            <div class="input-button-group">
+              <button class="btn-add">Add Item</button>
+              <button class="btn-reset">Reset</button>
+              <button class="btn-sort hidden">Sort <span class="sort-order">Descending</span> by date</button>
+              <span class="counter-container">List Item count: <span class="counter">0</span></span>
+              <span class="delete-icon-bulk hidden">Delete Selected</span>
+              <span class="done-icon-bulk hidden">Mark Selected Done</span>
+            </div>
+          </div>
+          <ul class="todo-list">
+          </ul>
+        </div>
+        <div class="error-info"></div>
+    </section>
+    <footer>
+      Developed by: Gagandeep Kapoor
+    </footer>
+      <script type="text/javascript" src="js/lib/todo.js"></script>
+      <script src="js/main.js"></script>
+  </body>
+</html>
